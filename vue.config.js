@@ -5,4 +5,6 @@ module.exports = defineConfig({
     port: 8999,
     open: true
   },
+  //关闭eslint校验
+  lintOnSave: false,
 })
